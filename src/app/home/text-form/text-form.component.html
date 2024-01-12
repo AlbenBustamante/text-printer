@@ -1,0 +1,18 @@
+<div class="ver-gap" id="print-section">
+  <textarea rows="5"></textarea>
+</div>
+<div class="mt-5">
+  <button
+    [printStyle]="{
+      textarea: {
+        border: 'none',
+        'font-family': 'sans-serif',
+        padding: '8px 0 15px'
+      }
+    }"
+    printSectionId="print-section"
+    ngxPrint
+  >
+    Imprimir
+  </button>
+</div>
